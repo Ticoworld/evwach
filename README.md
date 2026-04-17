@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EVWACH International Homepage
 
-## Getting Started
+Responsive homepage for EVWACH International, built from a company profile into a clearer public-facing landing page.
 
-First, run the development server:
+## What it is
+
+A single-page homepage that introduces EVWACH, outlines its focus areas, and gives visitors a direct path to get involved.
+
+## Why it was built
+
+The source brief read more like an organization profile than a homepage. This implementation turns it into a cleaner narrative with stronger hierarchy, clearer CTAs, and a calmer editorial layout.
+
+## Stack
+
+- Next.js 16 App Router
+- React 19
+- TypeScript
+- Tailwind CSS 4 base layer with custom CSS in `app/globals.css`
+- `next/image` and `next/font/google`
+
+## Setup
+
+```bash
+npm install
+```
+
+## Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Production run
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Key implementation choices
 
-## Deploy on Vercel
+- All homepage content lives in `app/page.tsx` so the page is easy to review in one place.
+- Shared navigation behavior lives in `app/site-header.tsx`.
+- The visual system is defined in `app/globals.css` with CSS variables, spacing scales, and responsive section rules.
+- Local photography and the logo are served from `public/` and rendered with `next/image`.
+- Typography uses `Inter` for body copy and `Lora` for headings.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Responsive and accessibility notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- The layout shifts from a two-column hero to stacked sections on smaller screens.
+- The mobile nav uses a real button with `aria-expanded` and `aria-controls`.
+- A skip link is present for keyboard users.
+- Sections use semantic headings and landmarks instead of generic div-only structure.
+
+## Live demo
+
+Not deployed yet.
+
+## Folder overview
+
+- `app/` page, layout, header, and global styles
+- `public/` photography and logo assets
+- `package.json` project scripts and dependencies
+- `next.config.ts` and `eslint.config.mjs` repo configuration
