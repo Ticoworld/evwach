@@ -20,22 +20,28 @@ export const metadata: Metadata = {
     template: "%s | EVWACH International",
   },
   description:
-    "EVWACH International is a community-based organization established in 2015, supporting vulnerable women, children, pregnant and nursing mothers through advocacy, education, health outreach, and field-based monitoring.",
+    "EVWACH International is a community-based, cross-cutting NGO established in 2015, promoting the rights and wellbeing of vulnerable women and children through advocacy, education, public health awareness, rehabilitation, and field-based monitoring.",
   applicationName: "EVWACH International",
   keywords: [
     "EVWACH International",
     "nonprofit",
     "NGO",
+    "cross-cutting NGO",
     "women and children",
     "pregnant and nursing mothers",
     "community health",
+    "public health awareness",
+    "family planning",
+    "malaria prevention",
+    "field-based monitoring",
     "advocacy",
+    "rehabilitation",
   ],
   authors: [{ name: "EVWACH International" }],
   openGraph: {
     title: "EVWACH International",
     description:
-      "A community-based organization supporting vulnerable women, children, pregnant and nursing mothers.",
+      "A community-based, cross-cutting NGO supporting vulnerable women, children, pregnant and nursing mothers through advocacy, education, public health awareness, rehabilitation, and field-based monitoring.",
     siteName: "EVWACH International",
     type: "website",
   },
@@ -43,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "EVWACH International",
     description:
-      "A community-based organization supporting vulnerable women, children, pregnant and nursing mothers.",
+      "A community-based, cross-cutting NGO supporting vulnerable women, children, pregnant and nursing mothers through advocacy, education, public health awareness, rehabilitation, and field-based monitoring.",
   },
 };
 

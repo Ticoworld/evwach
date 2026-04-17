@@ -1,7 +1,7 @@
 {
   "name": "evwach",
   "version": "0.1.0",
-  "description": "Responsive homepage for EVWACH International.",
+  "description": "Responsive homepage for EVWACH International, aligned to the updated profile.",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -1,6 +1,6 @@
 # EVWACH International Homepage
 
-Responsive homepage for EVWACH International, built from a company profile into a clearer public-facing landing page.
+Responsive homepage for EVWACH International, aligned to the updated profile and shaped into a clearer public-facing landing page.
 
 ## What it is
 
@@ -61,7 +61,7 @@ npm run start
 
 ## Live demo
 
-Not deployed yet.
+[https://evwach.vercel.app](https://evwach.vercel.app)
 
 ## Folder overview
 

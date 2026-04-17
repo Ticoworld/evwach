@@ -4,80 +4,97 @@ import { SiteHeader } from "./site-header";
 
 const whyProofBlocks = [
   {
-    label: "Local since 2015",
-    sentence: "EVWACH was established in 2015 as a community-based organization.",
+    label: "Established in 2015",
+    sentence: "EVWACH International was established as a community-based organization.",
   },
   {
-    label: "Focused on priority groups",
+    label: "Cross-cutting NGO",
     sentence:
-      "Its work centers vulnerable women, children, pregnant women, and nursing mothers.",
+      "Its work combines rights protection, education, public health awareness, rehabilitation, and field-based monitoring.",
   },
   {
-    label: "Outreach plus follow-up",
+    label: "Focused on vulnerable families",
     sentence:
-      "The organization stays practical by combining local outreach with follow-up.",
+      "The organization serves vulnerable women, children, and pregnant and nursing mothers.",
   },
 ];
 
 const aboutFacts = [
   {
     label: "Founded",
-    text: "Established in 2015.",
+    text: "Established in 2015 as a community-based organization.",
   },
   {
-    label: "Who it serves",
-    text: "Women, children, pregnant women, and nursing mothers.",
+    label: "Organization type",
+    text: "A cross-cutting NGO rooted in grassroots participatory development.",
   },
   {
-    label: "How it works",
-    text: "Local outreach and community follow-up.",
+    label: "Vision",
+    text: "Improved quality of lives of vulnerable children and women, especially pregnant and nursing mothers.",
+  },
+  {
+    label: "Mission",
+    text: "Advocacy, community outreach, basic formal and non-formal education, health awareness, family planning, and malaria prevention.",
+  },
+  {
+    label: "Objectives",
+    text: "Protect rights, offer educational trainings, and conduct field-based monitoring of health and education interventions.",
   },
 ];
 
 const programItems = [
   {
-    title: "Advocacy and rights protection",
-    body: "Community outreach, child advocacy, sensitization, and follow-up where practical needs are most immediate.",
+    title: "Child advocacy and rights protection",
+    body: "Protecting the rights of less privileged women and children through outreach, advocacy, and follow-up.",
     examples: [
       "Child advocacy",
       "Community outreach",
-      "Advocacy visits and sensitization",
+      "Rights protection",
     ],
   },
   {
     title: "Education and practical learning",
-    body: "Support for formal and non-formal learning, including opportunities that build useful skills beyond the classroom.",
+    body: "Formal and non-formal education, H2H mobilization, and practical learning opportunities.",
     examples: [
-      "Formal education support",
-      "Non-formal learning",
+      "H2H mobilization on formal and non-formal education",
+      "Sports and school quiz and debate competitions",
       "Computer training and certification",
     ],
   },
   {
-    title: "Maternal and child health support",
-    body: "Health awareness, family planning information, and support for pregnant and nursing mothers.",
+    title: "Community health outreach",
+    body: "Public health awareness counseling, rehabilitation, and community health support.",
+    examples: [
+      "Community health outreach programs",
+      "Public health awareness counseling",
+      "Rehabilitation",
+    ],
+  },
+  {
+    title: "Family planning and prevention",
+    body: "Family planning, malaria prevention, and health services that support pregnant and nursing mothers.",
     examples: [
       "Family planning services",
-      "Maternal care awareness",
+      "Malaria prevention",
       "Support for pregnant and nursing mothers",
     ],
   },
   {
-    title: "Disease prevention and awareness",
-    body: "Malaria prevention, sickle-cell awareness, and health education that supports early response.",
+    title: "Community mobilization and training",
+    body: "Mobilization and training on health and social issues through direct community engagement.",
     examples: [
-      "Malaria prevention",
-      "Sickle-cell awareness",
-      "Health education and prevention messaging",
+      "Advocacy visits",
+      "Sensitization meetings",
+      "Community dialogues",
     ],
   },
   {
-    title: "Community mobilization and field monitoring",
-    body: "Mobilization, dialogue, surveys, and follow-up so the work stays connected to real communities.",
+    title: "Field monitoring and survey",
+    body: "Field-based monitoring and survey to guide the proper use of health and education interventions.",
     examples: [
-      "Community mobilization",
-      "Field surveys and follow-up",
-      "Monitoring of health and education interventions",
+      "Sickle-cell disease awareness, detection and management",
+      "Field-based monitoring and survey",
+      "Monitoring of health and educational interventions",
     ],
   },
 ];
@@ -85,29 +102,33 @@ const programItems = [
 const workSteps = [
   {
     number: "01",
-    title: "Listen and mobilize",
-    text: "Start with outreach, advocacy visits, sensitization meetings, and community dialogue.",
+    title: "Reach communities directly",
+    text: "Start with advocacy visits, sensitization meetings, and H2H mobilization.",
     examples: [
-      "Community outreach and mobilization",
-      "Advocacy visits and sensitization meetings",
+      "Advocacy visits",
+      "Sensitization meetings",
+      "H2H mobilization",
     ],
   },
   {
     number: "02",
-    title: "Deliver practical support",
-    text: "Bring education support, health outreach, family planning information, and prevention work into real settings.",
+    title: "Use local channels",
+    text: "Community dialogues, compound meetings, announcements, and school activities widen the reach.",
     examples: [
-      "Education support and practical learning",
-      "Health outreach, family planning, and prevention work",
+      "Community dialogues",
+      "Compound meetings",
+      "Mosque and church announcements",
+      "Magjigi shows and children rallies",
     ],
   },
   {
     number: "03",
-    title: "Track community outcomes",
-    text: "Use field monitoring, surveys, and community feedback to see what is working and what still needs attention.",
+    title: "Follow through in the field",
+    text: "Field-based monitoring, surveys, and evaluation keep health and education interventions on track.",
     examples: [
-      "Field monitoring and surveys",
-      "Follow-up on health and education interventions",
+      "Field-based monitoring and survey",
+      "Monitoring and evaluation",
+      "Follow-up on interventions",
     ],
   },
 ];
@@ -115,42 +136,42 @@ const workSteps = [
 const valueCards = [
   {
     title: "Empathy",
-    text: "We respond to vulnerable women, children, and communities with care.",
+    text: "We show compassion and care for vulnerable women, children, and communities.",
   },
   {
     title: "Value for Human Life",
-    text: "We uphold the dignity and worth of every person.",
+    text: "We uphold the dignity, rights, and worth of every individual.",
   },
   {
     title: "Welfare and Wellbeing",
-    text: "We work to improve health, learning, and everyday wellbeing.",
+    text: "We improve health, education, and overall wellbeing.",
   },
   {
     title: "Accountability",
-    text: "We stay responsible in how we act, use resources, and serve communities.",
+    text: "We stay transparent and responsible with actions, resources, and commitments.",
   },
   {
     title: "Community Empowerment",
-    text: "We support self-reliance through knowledge, skills, and opportunity.",
+    text: "We promote self-reliance through knowledge, skills, and opportunities.",
   },
   {
     title: "Holistic Development",
-    text: "We treat health, learning, and social wellbeing as connected.",
+    text: "We address education, health, and social needs together.",
   },
 ];
 
 const involvementPaths = [
   {
-    title: "Program partnership",
-    text: "Join advocacy, education support, maternal health outreach, or community field activities.",
+    title: "Funding support",
+    text: "Help fund advocacy, education, health awareness, and field monitoring.",
   },
   {
-    title: "Support community delivery",
-    text: "Help extend learning, prevention, and follow-up into the communities EVWACH serves.",
+    title: "Educational materials",
+    text: "Support formal and non-formal learning with books, tools, and computer training resources.",
   },
   {
-    title: "Contribute expertise or resources",
-    text: "Bring specialist knowledge, trusted networks, or practical support that improves local delivery.",
+    title: "Volunteers and partnerships",
+    text: "Strengthen outreach, sensitization, and community follow-up.",
   },
 ];
 
@@ -178,9 +199,11 @@ export default function Home() {
                   outreach.
                 </h1>
                 <p className="hero-lead">
-                  We work with vulnerable women, children, pregnant and nursing
-                  mothers through advocacy, education support, health outreach,
-                  and field follow-up in local communities.
+                  Established in 2015, EVWACH International is a community-based,
+                  cross-cutting NGO. It promotes the rights and wellbeing of
+                  vulnerable women and children through advocacy, education,
+                  public health awareness, rehabilitation, and field-based
+                  monitoring.
                 </p>
                 <div className="button-row">
                   <Link href="#involved" className="button-link hero-button primary">
@@ -214,7 +237,7 @@ export default function Home() {
             <div className="why-intro">
               <h2 className="section-title why-title">Why EVWACH</h2>
               <p className="why-intro-copy">
-                EVWACH keeps its work close to the communities it serves, so
+                EVWACH keeps its work close to the communities it serves, so the
                 support stays practical and accountable.
               </p>
             </div>
@@ -237,12 +260,14 @@ export default function Home() {
               <h2 className="section-title about-title">What we do</h2>
               <p className="section-copy">
                 EVWACH, short for Empowerment for Vulnerable Women and Children
-                International, is a community-based organization established in
-                2015.
+                International, is a community-based, cross-cutting NGO
+                established in 2015.
               </p>
               <p className="section-copy">
-                Its work is carried out through local outreach and community
-                follow-up.
+                Its work promotes the rights and wellbeing of vulnerable women,
+                children, pregnant and nursing mothers through advocacy,
+                education, public health awareness, rehabilitation, and
+                field-based monitoring.
               </p>
               <dl className="about-facts" aria-label="About EVWACH facts">
                 {aboutFacts.map((fact) => (
@@ -271,13 +296,13 @@ export default function Home() {
 
         <section id="programs" className="section-spacing section-tinted">
         <div className="page-container">
-          <div className="section-heading readable-text program-header">
-            <h2 className="section-title program-title">Our focus areas</h2>
-            <p className="program-intro">
+            <div className="section-heading readable-text program-header">
+              <h2 className="section-title program-title">Our focus areas</h2>
+              <p className="program-intro">
               These are the practical areas EVWACH organizes around in local
               communities.
-            </p>
-          </div>
+              </p>
+            </div>
 
           <div className="program-grid">
             {programItems.map((item) => (
@@ -335,8 +360,8 @@ export default function Home() {
             <div className="section-heading readable-text">
               <h2 className="section-title">How EVWACH works</h2>
               <p className="section-copy">
-                The process is simple: listen first, deliver support, and
-                follow up.
+                The process is simple: mobilize communities, use local channels,
+                and follow up in the field.
               </p>
             </div>
 
@@ -406,7 +431,8 @@ export default function Home() {
                   <h2 className="section-title involvement-title">Get involved</h2>
                   <p className="section-copy involvement-copy">
                     If you want to support practical work on the ground, EVWACH
-                    welcomes partnerships that strengthen outreach and follow-up.
+                    welcomes funding, materials, volunteers, and partnerships
+                    that strengthen outreach and follow-up.
                   </p>
                 </div>
 
@@ -469,11 +495,12 @@ export default function Home() {
                 </div>
               <p className="footer-note">
                 Empowerment for Vulnerable Women and Children International is a
-                community-based organization established in 2015.
+                community-based, cross-cutting NGO established in 2015.
               </p>
               <p className="footer-note">
                 Its work supports vulnerable women, children, pregnant and nursing
-                mothers through local outreach and follow-up.
+                mothers through advocacy, education, public health awareness,
+                rehabilitation, and field-based monitoring.
               </p>
             </div>
 
@@ -489,10 +516,10 @@ export default function Home() {
             <div className="footer-column">
               <p className="footer-label">Focus areas</p>
               <ul className="footer-list">
-                <li>Advocacy and rights protection</li>
+                <li>Child advocacy and rights protection</li>
                 <li>Education and practical learning</li>
-                <li>Maternal and child health support</li>
-                <li>Disease prevention and awareness</li>
+                <li>Community health outreach</li>
+                <li>Family planning and prevention</li>
                 <li>Community mobilization and field monitoring</li>
               </ul>
             </div>
