@@ -437,14 +437,12 @@ export default function Home() {
                 </div>
 
                 <div className="button-row involvement-actions">
-                  <a
-                    href="https://www.evwachint.org"
+                  <Link
+                    href="#programs"
                     className="button-link hero-button primary"
-                    rel="noreferrer"
-                    target="_blank"
                   >
                     Partner with EVWACH
-                  </a>
+                  </Link>
                   <Link href="#programs" className="button-link hero-button secondary">
                     Explore programs
                   </Link>
